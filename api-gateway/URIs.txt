@@ -1,0 +1,15 @@
+Currency-Conversion
+http://localhost:8080/currency-conversion/from/{from}/to/{to}
+
+Currency-Exchange
+http://localhost:8082/currency-exchange/from/{from}/to/{to}/quantity/{quantity}
+http://localhost:8082/currency-exchange/from/{from}/to/{to}/quantity/{quantity}
+
+Currency-Exchange - API Gateway
+http://localhost:8007/currency-exchange/currency-exchange-feign/from/{from}/to/{to}/quantity/{quantity}
+http://localhost:8007/currency-exchange/currency-exchange/from/{from}/to/{to}/quantity/{quantity}
+
+
+Customize URIs API Gateway
+http://localhost:8007/currency-exchange/from/{from}/to/{to}/quantity/{quantity}
+http://localhost:8007/currency-exchange-feign/from/{from}/to/{to}/quantity/{quantity}
